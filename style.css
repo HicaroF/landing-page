@@ -1,20 +1,24 @@
 body {
     display: flex;
+    font-family: Georgia, serif;
     flex-direction: column;
-    background-color: #1f2937;
+    margin: -1px;
 }
 
-#wrapper {
+.headerwrap {
+    background-color: #64BAC7;
+    color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.wrapper {
     width: 1000px;
     margin: 0 auto;
-}
-
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1f2937;
-    color: white;
-    justify-content: space-between;
 }
 
 ul {
@@ -28,7 +32,7 @@ a {
     display: flex;
     text-decoration: none;
     font-size: 1.7em;
-    color: white;
+    color: #FFFFFF;
 }
 
 .text {
@@ -37,13 +41,17 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 0.7em;
 }
 
 img {
     display: flex;
     width: 50%;
     height: 80%;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 12px #c2c2c2,
+             -5px -5px 12px #c2c2c2;
 }
 
 .img {
@@ -59,15 +67,18 @@ img {
 .images {
     display: flex;
     width: 200px;
-    border: solid;
-    border-radius: 10px;
+    border-radius: 20px;
+    background: #bdbdbd;
+    box-shadow:  6px 6px 12px #848484,
+             -6px -6px 12px #848484;
 }
 
 .title {
     display: flex;
     font-size: 32px;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
+    font-weight: 900;
 }
 
 .container {
@@ -84,26 +95,140 @@ img {
 }
 
 .squaretext {
-    display: flex;
     justify-content: center;
     margin-top: 10px;
     flex-shrink: 1;
 }
 
 .box {
-    background-color: white;
-    height: 300px;
+    height: 350px;
     justify-content: center;
 }
 
 .phrase {
-    background-color: rgb(129, 129, 129);
+    background-color: #B5C9C3;
     height: 300px;
 } 
 
-.teste {
+.txtphrase {
+    font-family: 'Courier New', monospace;
+    font-style: italic;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    padding-top: 70px;
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.autor {
+    margin: 0 573px;
+    width: 200px;
+    font-weight: 900;
+    font-family: 'Courier New', monospace;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFD8D7;
+    height: 300px;
+}
+
+.titlesign {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.signtext {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.register {
+    display: flex;
+    width: 700px;
+    height: 130px;
+    background-color: orange;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    box-shadow:  5px 5px 12px #a7a7a7,
+             -5px -5px 12px #a7a7a7;
+}
+
+.buttonsign {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    background-color: #ffa500;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.footer {
+    position:relative;
+    text-align: center;
+    font-weight: 900;
+    background-color: #64BAC7;;
+    color:#ffffff;
+    padding: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border: #ffffff solid 0.2em;
+    border-radius: 10px;
+    background-color: #64BAC7;
+    color: #ffffff;
+}
+
+.button:hover, .buttonsign:hover, .logoimg:hover, a:hover {
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.button:hover {
+    background-color: #167d8d;
+}
+
+.buttonsign:hover {
+    background-color: #c4c4c4;
+}
+
+a:hover {
+    color: #167d8d;
+}
+
+.contentwrap {
+    background-color: #E7CFCD;
+}
+
+.registerwrap {
+    background-color: #CFD8D7;
+}
+
+.logoimg {
+    margin-top: 10px;
+}
+
+.logoimg img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.animals {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 0;
 }
